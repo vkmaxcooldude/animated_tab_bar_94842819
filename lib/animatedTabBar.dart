@@ -127,7 +127,7 @@ class _AnimatedTabBarState extends State<AnimatedTabBar>
                   });
                 });
 
-                Future.delayed(Duration(milliseconds: 950), () {
+                Future.delayed(Duration(milliseconds: 1000), () {
                   setState(() {
                     _iconColor[index] = Colors.white;
                     _opacity[index] = 1.0;
